@@ -6,20 +6,20 @@ This bot has been created using Bot Framework, it shows how to create a bot that
 
 The QnA Maker Service enables you to build, train and publish a simple question and answer bot based on FAQ URLs, structured documents or editorial content in minutes. In this sample, we demonstrate how to use the QnA Maker service to answer questions based on a FAQ text file used as input.
 
-Concepts introduced in this sample
+# Concepts introduced in this sample
 The QnA Maker Service enables you to build, train and publish a simple question and answer bot based on FAQ URLs, structured documents or editorial content in minutes. In this sample, we demonstrate -.how to use the Active Learning to generate suggestions for knowledge base. -.how to use the Multiturn experience for the knowledge base .
 
-Prerequisites
+# Prerequisites
 - Follow instructions here to create a QnA Maker service.
 
 Follow instructions here to create multiturn experience.
 Follow instructions here to import and publish your newly created QnA Maker service.
 Update appsettings.json with your kbid (KnowledgeBase Id), endpointKey and endpointHost. QnA knowledge base setup and application configuration steps can be found here.
 (Optional) Follow instructions here to set up the QnA Maker CLI to deploy the model.
-Create a QnAMaker Application to enable QnA Knowledge Bases
+# Create a QnAMaker Application to enable QnA Knowledge Bases
 QnA knowledge base setup and application configuration steps can be found here.
 
-Configure Cognitive Service Model
+# Configure Cognitive Service Model
 Create a Knowledge Base in QnAMaker Portal.
 Import "smartLightFAQ.tsv" file, in QnAMaker Portal.
 Save and Train the model.
@@ -30,15 +30,15 @@ Capture values of settings like"QnAAuthKey" from
 Updated appsettings.json with values as needed.
 Use value of "QnAAuthKey" for setting "QnAEndpointKey".
 Capture KnowledgeBase Id, HostName and EndpointKey current published app
-Try Active Learning
+# Try Active Learning
 Once your QnA Maker service is up and you have published the sample KB, try the following queries to trigger the Train API on the bot.
 Sample query: "light"
 You can observe that, Multiple answers are returned with high score.
-Try Multi-turn prompt
+# Try Multi-turn prompt
 Once your QnA Maker service is up and you have published the sample KB, try the following queries to trigger the Train API on the bot.
 Sample query: "won't turn on"
 You can notice a prompt, included as part of answer to query.
-To try this sample
+# To try this sample
 Clone the repository
 
 git clone https://github.com/Microsoft/botbuilder-samples.git
@@ -85,14 +85,14 @@ Connect to the bot using Bot Framework Emulator
 Launch Bot Framework Emulator
 File -> Open Bot
 Enter a Bot URL of http://localhost:3978/api/messages
-Deploy the bot to Azure
+# Deploy the bot to Azure
 See Deploy your C# bot to Azure for instructions.
 
 The deployment process assumes you have an account on Microsoft Azure and are able to log into the Microsoft Azure Portal.
 
 If you are new to Microsoft Azure, please refer to Getting started with Azure for guidance on how to get started on Azure.
 
-Further reading
+# Further reading
 [Active learning Documentation][al#1]
 Bot Framework Documentation
 Bot Basics
